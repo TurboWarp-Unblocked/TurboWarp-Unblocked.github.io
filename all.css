@@ -21,3 +21,29 @@ body {
   p{
     color:rgb(255, 255, 255);
   }
+
+  .game {
+    background-color: rgb(232, 237, 241);
+    border: 2px solid #0600a5;
+    border-radius: 8px;
+    margin: 38px;
+    overflow: hidden;
+    padding: 8px;
+  }
+
+  .game_url{
+  width: 494px;
+  color: rgb(255, 255, 255);
+  background-color: #1c1c1c;
+  }
+
+  .game_img{
+    width: 300px;
+  }
+
+  .game_urlB{
+
+    width: 500px;
+    color: rgb(255, 255, 255);
+    background-color: #003bdf;
+    }

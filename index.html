@@ -6,6 +6,8 @@
   <meta name="robots" content="noindex">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="all.css">
+  <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css"/>
+  <script defer src="https://pyscript.net/latest/pyscript.js"></script>
 </head>
 <body>
   <header>
@@ -13,7 +15,14 @@
     </h1>
   </header>
   <main>
-    <p>this is a mod of TurboWarp</p>
+    <p>this is a mod of <a href="https://turbowarp.org">TurboWarp</a></p>
     <p>we have a buged <a href="packager/">packager</a></p>
+  
+  <div class="game">
+    <iframe id="game" src="https://scratch.mit.edu/projects/863351072/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    <input id="game1" class="game_url" type="text">
+    <button py-click="update()" class="game_urlB" id="update" >update URL </button>
+    
 </body>
+<py-script src="game.py" ></py-script>
 </html>
